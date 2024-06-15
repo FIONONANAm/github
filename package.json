@@ -1,0 +1,26 @@
+{
+  "name": "github",
+  "version": "1.0.0",
+  "description": "just un essaie",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FIONONANAm/github.git"
+  },
+  "keywords": [
+    "essaie"
+  ],
+  "author": "FIONONANAm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FIONONANAm/github/issues"
+  },
+  "homepage": "https://github.com/FIONONANAm/github#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
