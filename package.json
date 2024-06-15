@@ -4,7 +4,7 @@
   "description": "just un essaie",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "nodemon --exec babel-node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +22,12 @@
   "homepage": "https://github.com/FIONONANAm/github#readme",
   "dependencies": {
     "express": "^4.19.2"
-  }
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.11",
+    "@babel/node": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "nodemon": "^3.0.1"
+  },
+  "type":"module"
 }
